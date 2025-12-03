@@ -1,0 +1,152 @@
+body {
+    background-color: gray;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    height: 100vh; 
+}
+
+.opacity {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(/images/587975641_10160162129947325_5209915309777089565_n.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.navbar {
+    background: white;
+    width: 100%;
+    margin: 0;
+    top: 0;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 30px;
+  }
+  
+.navbar ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding-right: 40px;
+    margin: 0;
+    gap: 20px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    padding: 20px 30px;
+    display: block;
+    color: black;
+    transition: ease-in 0.1s;
+}
+
+.navbar ul li a:hover {
+    background: darkgray;
+    color: black;
+    transform: scale(1.2);
+  }
+
+  .logo img {
+    width: 65px;
+    height: auto;
+    position: absolute;  
+}
+
+.container1 {
+    width: 100%;
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 50px;
+}
+
+.container1 img {
+    width: 60%;
+    max-width: 600px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.info {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.info h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.info p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: white;
+}
+
+.container2 {
+    width: 100%;
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 50px;
+}
+
+.container2 img {
+    width: 60%;
+    max-width: 600px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.info2 {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.info2 h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.info2 p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: white;
+}
+
+.container3 {
+    width: 100%;
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 50px;
+}
+
+.container3 img {
+    width: 60%;
+    max-width: 600px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.info3 {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.info3 h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.info3 p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: white;
+}
