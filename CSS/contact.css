@@ -1,5 +1,6 @@
 body {
     background-color: beige;
+    background-image: url(/images/2718312ddf605eb1859a74e51b435c38.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     overflow-x: hidden;
@@ -47,5 +48,57 @@ body {
 .logo img {
     width: 65px;
     height: auto;
-    position: fixed;   
+    position: absolute;   
+}
+
+
+.form-container {
+    width: 90%;
+    max-width: 600px;
+    margin: 50px auto;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 2px solid #b8c8cf;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+input:focus, textarea:focus {
+    border-color: #8aa5b8;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #c68a53;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f5cb5c;
 }

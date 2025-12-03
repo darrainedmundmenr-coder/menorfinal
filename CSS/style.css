@@ -1,5 +1,5 @@
 body {
-    background-color: beige;
+    background-color: gray;
     background-image: url(/images/401be6e687a162d9da9d2ac0202813e7.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -59,6 +59,14 @@ body {
 .support {
     text-align: center;
     color: white;
+}
+
+.intro2 {
+    font-size: 16px;
+    line-height: 1.6;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
 }
 
 

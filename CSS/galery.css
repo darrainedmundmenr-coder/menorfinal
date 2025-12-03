@@ -47,5 +47,28 @@ body {
 .logo img {
     width: 65px;
     height: auto;
-    position: fixed;   
+    position: absolute;   
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.images img {
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    transition: ease-in-out 0.3s;
+}
+
+.images img:hover {
+    transform: scale(1.2);
+}
+
+.pics {
+    text-align: center;
 }
