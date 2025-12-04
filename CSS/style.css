@@ -69,6 +69,71 @@ body {
     margin-top: 100px;
 }
 
+@media (max-width: 768px) {
+    .navbar {
+        padding: 10px 20px; 
+    }
+    
+    .navbar ul {
+        padding-right: 20px; 
+        gap: 15px; 
+    }
+    
+    .navbar li a {
+        padding: 15px 20px; 
+        font-size: 14px; 
+    }
+    
+    .logo img {
+        width: 50px; 
+        left: 20px; 
+    }
+    
+    .intro2 {
+        margin-top: 80px; 
+        font-size: 14px; 
+        padding: 0 20px; 
+    }
+}
+
+
+@media (max-width: 480px) {
+    .navbar {
+        padding: 10px 15px; 
+        flex-direction: column; 
+    }
+    
+    .navbar ul {
+        flex-direction: column; 
+        padding-right: 0; 
+        gap: 10px; 
+        width: 100%; 
+        justify-content: center; 
+    
+    .navbar li a {
+        padding: 10px 15px;
+        text-align: center; 
+    }
+    
+    .logo img {
+        position: static; 
+        width: 45px; 
+        margin-bottom: 10px; 
+    }
+    
+    .intro2 {
+        margin-top: 60px; 
+        font-size: 12px; 
+        padding: 0 15px; 
+    
+   
+    body {
+        background-attachment: scroll; 
+    }
+}
+
+
+
 
 
 
